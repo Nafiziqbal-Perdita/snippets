@@ -607,5 +607,19 @@
       ""
     ],
     "description": "Longest Common Subsequence"
+  },
+  "This is a lambda function,by using this we can work in the main function and no need to go for any external function": {
+    "prefix": "lambda func",
+    "body": [
+      "    auto ${1} = []( ${2} ) -> ${3} ",
+      "        {",
+      "      ",
+      "${4}",
+      "",
+      "",
+      "",
+      "        };"
+    ],
+    "description": "This is a lambda function,by using this we can work in the main function and no need to go for any external function"
   }
 }
